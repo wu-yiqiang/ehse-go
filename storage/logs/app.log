@@ -7,3 +7,5 @@
 [2024-09-08 23:15:35.422]	local.error	bootstrap/db.go:48	mysql connect failed, err:	{"err": "dial tcp 127.0.0.1:8306: connect: connection refused"}
 [2024-09-08 23:43:18.542]	local.info	ehse-go/main.go:14	log init success!
 [2024-09-08 23:43:18.543]	local.error	bootstrap/db.go:48	mysql connect failed, err:	{"err": "dial tcp 127.0.0.1:8306: connect: connection refused"}
+[2024-09-09 00:24:10.763]	local.info	ehse-go/main.go:14	log init success!
+[2024-09-09 00:24:10.764]	local.error	bootstrap/db.go:48	mysql connect failed, err:	{"err": "dial tcp 127.0.0.1:8306: connect: connection refused"}
