@@ -21,3 +21,6 @@
 [2024-10-28 02:01:10.985]	local.info	ehse-go/main.go:14	log init success!
 [2024-10-28 02:01:10.986]	local.error	bootstrap/db.go:48	mysql connect failed, err:	{"err": "dial tcp 127.0.0.1:8306: connect: connection refused"}
 [2024-10-28 02:01:11.084]	local.error	bootstrap/redis.go:18	Redis connect ping failed, err:	{"err": "dial tcp: lookup tcp/ᣫ: unknown port"}
+[2024-10-28 02:06:33.787]	local.info	ehse-go/main.go:14	log init success!
+[2024-10-28 02:06:33.788]	local.error	bootstrap/db.go:48	mysql connect failed, err:	{"err": "dial tcp 127.0.0.1:8306: connect: connection refused"}
+[2024-10-28 02:06:33.883]	local.error	bootstrap/redis.go:18	Redis connect ping failed, err:	{"err": "dial tcp: lookup tcp/ᣫ: unknown port"}

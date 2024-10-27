@@ -25,3 +25,6 @@
 
 2024/10/28 02:01:10 /Users/atlas/go/src/ehse-go/bootstrap/db.go:44
 [error] failed to initialize database, got error dial tcp 127.0.0.1:8306: connect: connection refused
+
+2024/10/28 02:06:33 /Users/atlas/go/src/ehse-go/bootstrap/db.go:44
+[error] failed to initialize database, got error dial tcp 127.0.0.1:8306: connect: connection refused

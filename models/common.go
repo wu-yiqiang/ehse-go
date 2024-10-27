@@ -20,3 +20,17 @@ type Timestamps struct {
 type SoftDeletes struct {
 	DeletedAt gorm.DeletedAt `json:"deleted_at" gorm:"index"`
 }
+
+
+// 多语言
+type FieldLanguage struct {
+	nameAr string `json:"nameAr"`
+	nameEn string `json:"nameEn"`
+	nameCn string `json:"nameCn"`
+}
+
+// 状态的不同颜色
+type StatusColor struct {
+	TextColor string `json:"textColor"`
+	TextBgcColor string `json:"textBgcColor"`
+}
