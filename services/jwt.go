@@ -65,7 +65,7 @@ func (jwtService *jwtService) getBlackListKey(tokenStr string) string {
 }
 
 // JoinBlackList token 加入黑名单
-func (jwtService *jwtService) JoinBlackList(token *jwt.Token, context context.Context) (err error) {
+func (jwtService *jwtService) JoinBlackList(token *jwt.Token) (err error) {
 	nowUnix := time.Now().Unix()
 	timer := time.Duration(token.Claims.(*CustomClaims).ExpiresAt-nowUnix) * time.Second
 	// 将 token 剩余时间设置为缓存有效期，并将当前时间作为缓存 value 值
