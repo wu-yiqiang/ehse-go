@@ -1,8 +1,8 @@
 package app
 
 import (
-	"ehse-go/app/common/request"
-	"ehse-go/app/common/response"
+	"ehse-go/common/request"
+	"ehse-go/common/response"
 	"ehse-go/services"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"

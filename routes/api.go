@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"ehse-go/app/controllers/app"
+	"ehse-go/controllers/app"
 	"ehse-go/middleware"
 	"ehse-go/services"
 	"github.com/gin-gonic/gin"

@@ -1,8 +1,8 @@
 package services
 
 import (
-	"ehse-go/app/common/request"
-	"ehse-go/app/models"
+	"ehse-go/common/request"
+	"ehse-go/models"
 	"ehse-go/global"
 	"ehse-go/utils"
 	"errors"

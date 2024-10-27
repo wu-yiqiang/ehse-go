@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"ehse-go/app/common/response"
+	"ehse-go/common/response"
 	"ehse-go/global"
 	"ehse-go/services"
 	"github.com/dgrijalva/jwt-go"
